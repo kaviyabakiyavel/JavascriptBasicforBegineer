@@ -1,0 +1,72 @@
+<!-- 
+if your writing javascript code inside head tag 
+
+Problem 1 :
+You might have a lot of javascript code there , 
+so your browser might get busy parsing and executing that javascript code and 
+its one thing to be able to render the content of the page.
+so this will create a bad user experience . 
+your user looks at your web page its white or blank , while your browser is busy parsing and excuting your javascript code .
+
+Problem2 :
+Its best partice you should write your javascript code at end of the body section.
+
+https://levelup.gitconnected.com/all-about-script-87fea475b976 -->
+
+<!-- inb/w single quotes is called string 
+A string  is a sequence of characters  -->
+
+<!-- comments always ignored by javascript enginee
+    why and how ? comment should be meaningful  
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <meta http-equiv='X-UA-Compatible' content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+      <h1>Hello World</h1> 
+      <script>
+          console.log('Hello World');
+      </script> 
+    </body>
+</html>
+
+<!-- better practice to write inline script  -->
+<!-- html always run from top to bottom  -->
+<!-- example1 inside head-->
+
+<!-- <html>
+  <head>
+    <script>
+    	document.querySelector('#demo').style.color="green"
+     </script>
+  </head>
+  <body>
+    <p id="demo">
+     Example1 Change my color!
+    </p>
+  </body>
+</html> -->
+
+<!-- example2 inside body  -->
+
+<!-- <html>
+  <head>
+  </head>
+  <body>
+    <p id="demo">
+     Example2 Change my color!
+    </p>
+    <script>
+    	document.querySelector('#demo').style.color="green"
+     </script>
+  </body>
+</html> -->
+
+
+

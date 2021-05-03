@@ -1,0 +1,27 @@
+What is javascript?
+   Javascript is more popular and widely used programming language right now 
+   Big comapanies using it walmart , netflix , paypal  to build entire application .
+   
+
+What can you do with it ? 
+    Huge community support like facebook and google .
+    Today you can build web and mobile application by using javascript 
+    As well as realtime networking applications (chat , video streaming,Commandlinetools,Game).
+
+Where does javascript code run ?
+   Javascript orginally designed for running on browser.
+   Javascript can run on browserside . every browser as javascript engine . Javascript Enginee can excute the javascript code .
+   Javascript Engine - "FirFox , Chrome , SpiderMonkey and V8"
+   In 2019 very clever engineer Brian Doll took the open source Javascript engine in chrome and embedded it inside a c++ program , He called  program node 
+   So node is a c++ program , that includes Google V8 Javascript .
+   Now this we can run the javascript code outside of a browser , so we can pass our javascript code to Node for execution . 
+   And with this javascript we can build the backend-end for our web and mobile applications.
+   So in a nut shell , Javascipt code can be un inside of a browser , or in Node . 
+   Browser and node provide a runtime environment for our javascript code .
+
+JavaScript vs ECMAScript?
+    ECMAScript is just for specification 
+    Javascript is a programming language that confirms to this specification .
+    So we have this organization called ECMA , which is responsbile for defining standards, they take care of this ECMA Script Specification .
+    V1 - 1997,2015(ES2016/ES6),2016,...
+    

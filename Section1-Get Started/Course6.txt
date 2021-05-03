@@ -1,0 +1,10 @@
+Open terminal
+Download Node 
+Command :  node index.html
+Node is a program that includes V8 Javascript engine . we can give it a piece of javascript code .
+Same thing how we ecute the code in javascript browser 
+so Node is a run time environemnt for executing javascript code .
+
+in vs code we have integrated terminal .
+For running node we have to open up seperate terminal window . 
+
