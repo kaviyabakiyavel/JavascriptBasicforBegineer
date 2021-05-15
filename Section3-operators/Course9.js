@@ -19,9 +19,9 @@ console.log(1 & 2); //Bitwise AND
 
 //real time eg Access control system 
 //user can have these permissions , read ,write,Excute
-// 00000100
-// 00000010
-// 00000001 
+// 00000100 = 4
+// 00000010 = 2
+// 00000001 = 1
 
 const readpermission = 4 ;
 const writepermission = 2;
@@ -34,5 +34,6 @@ console.log(mypermission)
 //00000100  = 4 = readpermission
 //o/p = 00000100 = 4 
 console.log(mypermission & readpermission)
+//when & condition become 0 it will return no
 let message  = (mypermission & readpermission) ? 'yes' : 'no';
 console.log(message)
