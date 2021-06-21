@@ -33,11 +33,11 @@
 // Video();
 
 //3
-function Video(title) {
-    this.title = title;
-    console.log(this)//refers to window object
-}
-const v = new Video('b'); //new creates an empty object {} , so this pointing to empty object 
+// function Video(title) {
+//     this.title = title;
+//     console.log(this)//refers to window object
+// }
+// const v = new Video('b'); //new creates an empty object {} , so this pointing to empty object 
 
 //4
 const video = {
@@ -51,7 +51,7 @@ const video = {
             //how can we slove this problem and reder title.
             //foreach as two parameter (callback,thisArgs)
             console.log(this.title, tag);
-        }, this) //this refers to video object inside callback now you will get the title 
+        },this) //this refers to video object inside callback now you will get the title 
     }
 }
 console.log(video.showTags());
